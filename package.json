@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npx nullstack start",
-    "build": "prisma generate && cp node_modules/.prisma/client/schema.prisma public/. npx nullstack build && cp node_modules/.prisma/client/schema.prisma .production/.",
+    "build": "prisma generate && cp node_modules/.prisma/client/schema.prisma public/. && npx nullstack build && cp node_modules/.prisma/client/schema.prisma .production/.",
     "fix-prisma": "cp node_modules/.prisma/client/schema.prisma /var/task/.production/."
   },
   "dependencies": {
