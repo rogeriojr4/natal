@@ -12,8 +12,7 @@
   },
   "scripts": {
     "start": "npx nullstack start",
-    "build": "prisma generate && cp node_modules/.prisma/client/schema.prisma /var/task/.production/. && cp node_modules/.prisma/client/schema.prisma public/. npx nullstack build",
-    "fix-prisma": "cp node_modules/.prisma/client/schema.prisma /var/task/.production/."
+    "build": "prisma generate && cp node_modules/.prisma/client/schema.prisma .production/. && cp node_modules/.prisma/client/schema.prisma public/. npx nullstack build"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10",
