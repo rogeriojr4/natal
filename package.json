@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npx nullstack start",
-    "build": "npx nullstack build"
+    "build": "prisma generate && npx nullstack build"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10",
