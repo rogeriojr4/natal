@@ -9,10 +9,7 @@ const context = Nullstack.start(Application);
 context.start = async function start() {
   const db = new PrismaClient();
 
-  context.db = db;
-
-
-  
+  context.db = db;  
 };
 
 export default context;
