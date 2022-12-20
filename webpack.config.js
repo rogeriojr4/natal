@@ -13,14 +13,6 @@ function customClient(...args) {
       },
     },
   })
-  // console.log(config.module.rules)
-  // config.module.rules.push([
-  //   {
-  //     test: /\.js$/,
-  //     exclude: /node_modules/,
-  //     loader: 'babel-loader',
-  //   },
-  // ])
   return config
 }
 

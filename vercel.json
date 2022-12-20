@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/nullstack.js": {
-      "includeFiles": [".production/**", "prisma/**"]
+      "includeFiles": [".production/**", "prisma/schema.prisma"]
     }
   },
   "routes": [
